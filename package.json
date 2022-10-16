@@ -1,0 +1,29 @@
+{
+  "name": "to-do-api",
+  "version": "1.0.0",
+  "description": "api for todo app",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/utkarsh6300/to-do-api.git"
+  },
+  "author": "utkarsh yadav",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/utkarsh6300/to-do-api/issues"
+  },
+  "homepage": "https://github.com/utkarsh6300/to-do-api#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "config": "^3.3.8",
+    "express": "^4.18.2",
+    "express-validator": "^6.14.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.6.5",
+    "nodemon": "^2.0.20"
+  }
+}
