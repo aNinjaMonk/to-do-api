@@ -1,0 +1,217 @@
+{
+	"info": {
+		"_postman_id": "2e1c88cf-434e-4c58-a2b7-2798c5fff1db",
+		"name": "todo-api",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "register user",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "username",
+							"value": "govind12",
+							"type": "default"
+						},
+						{
+							"key": "email",
+							"value": "govinddeshmukh2001@gmail.com",
+							"type": "default"
+						},
+						{
+							"key": "password",
+							"value": "govind",
+							"type": "default"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:5000/register",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"register"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Login user",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "username",
+							"value": "govind12",
+							"type": "default"
+						},
+						{
+							"key": "password",
+							"value": "govind",
+							"type": "default"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:5000/login",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "create todo",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "title",
+							"value": "second sample to do ",
+							"type": "default"
+						},
+						{
+							"key": "description",
+							"value": "now that todo is added i can spend some chill time and watch some youtube",
+							"type": "default"
+						},
+						{
+							"key": "status",
+							"value": "Done",
+							"type": "default"
+						},
+						{
+							"key": "due_date",
+							"value": "30-03-2023",
+							"description": "date can be in any form",
+							"type": "default"
+						},
+						{
+							"key": "username",
+							"value": "govind12",
+							"description": "this feild is important because we have to be user specific while displaying todo data ",
+							"type": "default"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:5000/todo/create",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"todo",
+						"create"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "update todo",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "title",
+							"value": "new todo after update",
+							"type": "default"
+						},
+						{
+							"key": "description",
+							"value": "second sample to do => this was the title of todo before updating the todo so be careful while updating todo",
+							"type": "default"
+						},
+						{
+							"key": "status",
+							"value": "May be Done",
+							"type": "default"
+						},
+						{
+							"key": "due_date",
+							"value": "30-04-2023",
+							"description": "date can be in any form",
+							"type": "default"
+						},
+						{
+							"key": "username",
+							"value": "govind12",
+							"description": "this feild is important because we have to be user specific while displaying todo data ",
+							"type": "default"
+						},
+						{
+							"key": "old_title",
+							"value": "First sample to do ",
+							"type": "default"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:5000/todo/update",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"todo",
+						"update"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get list of all users",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:5000/users",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"users"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
