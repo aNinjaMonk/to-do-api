@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+  </head>
+  <body>
+    <ul>
+      <li>
+        <a href="/login">Login</a>
+      </li>
+      <li>
+        <a href="/register">Register</a>
+      </li>
+    </ul>
+    <style>
+      table tr td {
+        border: 1px solid black;
+        padding: 5px;
+      }
+    </style>
+    <table>
+      <thead>
+        <tr>
+          <td><strong>Given task</strong></td>
+          <td><strong>completed</strong></td>
+          <td><strong>not completed</strong></td>
+          <td><strong>reason</strong></td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Create todo</td>
+          <td>Done</td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>update todo</td>
+          <td>Done</td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>delete todo</td>
+          <td>Done</td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>File attachments</td>
+          <td>Partially Done</td>
+          <td></td>
+          <td>
+            Only able to save attachments to local upload folder (not on
+            database)
+          </td>
+        </tr>
+        <tr>
+          <td>Delete all todo</td>
+          <td></td>
+          <td>Not Done</td>
+          <td>
+            In firebase firestore we cannot delete all collections at once
+          </td>
+        </tr>
+        <tr>
+          <td>List all todo</td>
+          <td>Done</td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>List a todo</td>
+          <td>Done</td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>register user</td>
+          <td>Done</td>
+          <td></td>
+          <td></td>
+        </tr>
+
+        <tr>
+          <td>login user</td>
+          <td>Done</td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>logout user</td>
+          <td>Done</td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>forgot password</td>
+          <td></td>
+          <td>Not Done</td>
+          <td>require email SMTP service to send password reset mail</td>
+        </tr>
+        <tr>
+          <td>AI analysis of urgency</td>
+          <td></td>
+          <td>Not Done</td>
+          <td>Time was not enough to implement this feature</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
