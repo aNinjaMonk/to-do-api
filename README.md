@@ -2,9 +2,12 @@
 
 python for backend bootstrap for frontend and firebase as a database
 
-# [Heroku Link](https://assignment-govind.herokuapp.com/)
+# [Heroku webapp](https://assignment-govind.herokuapp.com/)
+# [Heroku api only](https://backend-only-api.herokuapp.com/)
 
-## heroku link is second last update after that heroku stopped working
+## Without using session we cannot perform user specific actions on todo
+## some features of "only api todo" will not work as it is only api with no connection to app
+## I request you to review the flask web app
 
 Create a robust and performant api for a todo list app.
 
