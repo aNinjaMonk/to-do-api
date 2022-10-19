@@ -1,0 +1,6 @@
+{
+    "mongoURI":"mongodb+srv://utkarsh6:utkarsh6@database1.nybmam1.mongodb.net/todo?retryWrites=true&w=majority",
+   "jwtSecret":"firsttoken123",
+   "cloud_analysis_key":"AIzaSyA4LDNunBkbqdnTw5WN-x88D8IyKQ8SxpU",
+   "Gmailpassword":"qwert123"
+}
